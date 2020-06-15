@@ -64,7 +64,7 @@ print "Downloading Bengali fonts"
 cd $CACHE_DIR
 curl -L --silent $NOTO_BENGALI_URL > noto-bengali-fonts.zip
 unzip -o noto-bengali-fonts.zip -d noto-bengali-fonts
-rm noto-cjk-fonts.zip
+rm noto-bengali-fonts.zip
 
 print "Copying fonts to app folder"
 mkdir $BUILD_DIR/.fonts

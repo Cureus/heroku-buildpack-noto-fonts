@@ -42,7 +42,7 @@ unzip -o noto-bengali-fonts.zip -d noto-bengali-fonts
 rm noto-bengali-fonts.zip
 
 print "Copying fonts to app folder"
-mkdir $BUILD_DIR/.fonts
+mkdir -p $BUILD_DIR/.fonts
 cp $CACHE_DIR/noto-fonts/* $BUILD_DIR/.fonts/
 cp $CACHE_DIR/noto-devanagari-fonts/* $BUILD_DIR/.fonts/
 cp $CACHE_DIR/noto-bengali-fonts/* $BUILD_DIR/.fonts/

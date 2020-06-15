@@ -1,0 +1,6 @@
+#!/bin/sh
+
+echo "NotoSansCJKjp"
+echo "Devanagari"
+echo "Bengali"
+exit 0
